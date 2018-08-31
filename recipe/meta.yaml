@@ -1,6 +1,6 @@
 {% set name = "nameparser" %}
-{% set version = "0.5.7" %}
-{% set sha256 = "89f2f6126fb5af30b50aca88e847e4c7da888d42b893432da06c965a0879b763" %}
+{% set version = "1.0" %}
+{% set sha256 = "c857e65ab449c25ad8b1fc0f3a24e1ab4c843a6223998dc62e2e1120354aee2e" %}
 
 package:
   name: {{ name|lower }}
