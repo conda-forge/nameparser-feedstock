@@ -1,6 +1,6 @@
 {% set name = "nameparser" %}
-{% set version = "1.0.5" %}
-{% set sha256 = "34a43750188be4e92943d7ebee5f72506efe7e12076b3463ca9dfc68a9a3e36f" %}
+{% set version = "1.1.2" %}
+{% set sha256 = "7ff86c4b8ac0dd7367ae2edb4a63515d114adc50788909e5d8e3d5632776170e" %}
 
 package:
   name: {{ name|lower }}
@@ -31,7 +31,7 @@ about:
   license: LGPL-2.1+
   license_family: LGPL
   license_file: LICENSE
-  summary: 'A simple Python (3.2+ & 2.6+) module for parsing human names into their individual components.'
+  summary: A simple Python (3.2+ & 2.6+) module for parsing human names into their individual components.
 
 extra:
   recipe-maintainers:
